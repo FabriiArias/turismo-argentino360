@@ -56,7 +56,7 @@ header ul li a:hover {
     padding-right: 10%;
 
     div {
-        background-image: url(../imagenes/norte-1.jpg);
+        background-image: url(../imagenes/Norte/norte-1.jpg);
         background-repeat: no-repeat;
         display: flex;
         justify-content: center;
