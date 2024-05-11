@@ -12,7 +12,7 @@ body{
 }
 /* ---------------------------- HEADER ----------------------------------*/
 header{
-    background-color: #ffffff;
+    background-color: #dda15e;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -23,7 +23,6 @@ header ul{
     list-style: none;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
     gap: 15px;
 }
 header ul li a{
@@ -33,10 +32,16 @@ header ul li a{
     padding: 10px;
 }
 header ul li a:hover{
-    background-color: #dda15e;
-    color: white;
+    background-color: #fefae0;
+    color: black;
 }
 .selected{
+    background-color: #dda15e;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+.selected:hover{
     background-color: #dda15e;
     color: white;
     font-size: 20px;

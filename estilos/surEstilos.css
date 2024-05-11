@@ -12,7 +12,7 @@ body{
 }
 /* ---------------------------- HEADER ----------------------------------*/
 header{
-    background-color: #ffffff;
+    background-color: #dda15e;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -37,6 +37,12 @@ header ul li a:hover{
     color: white;
 }
 .selected{
+    background-color: #dda15e;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+.selected:hover{
     background-color: #dda15e;
     color: white;
     font-size: 20px;
