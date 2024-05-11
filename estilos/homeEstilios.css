@@ -17,7 +17,8 @@ header{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    align-items: center;  
+    align-items: center;
+    box-shadow: 1px 1px 30px;  
 }
 header ul{
     list-style: none;
@@ -32,8 +33,7 @@ header ul li a{
     padding: 10px;
 }
 header ul li a:hover{
-    background-color: #fefae0;
-    color: black;
+    color: white;
 }
 .selected{
     background-color: #dda15e;
@@ -47,4 +47,74 @@ header ul li a:hover{
     font-size: 20px;
     padding: 10px;
 }
-/* ------------------------ CARRUSEL ------------------------------------*/
+/* ------------------------ carrousel ------------------------------------*/
+.carru{
+    margin: 200px;
+    text-align: center;
+    justify-content: center;
+    font-size: 50px;
+}
+/*------------------------- PRIMERA SECTION ----------------------------*/
+.ps-fondo{
+    background-color: #dda15e;
+    padding: 100px; /*ESTE PADDING CONTARIA COMO MARGIN BOOTOM DE ESTA SEC Y COMO M BOTTOM DE LA DE ARRIBA*/
+}
+.ps{
+    width: 90%;
+    margin: auto; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+.ps-intro{
+    width: 30%;;
+    text-align: center;
+}
+.ps-intro h2{
+    margin-top: 0px;
+    font-size: 70px;
+    color: black;
+    background-color: #fefae0;
+    width: 100%;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.502);  
+}
+.ps-intro p{
+    font-size: 20px;
+    
+}
+/*----------------------- SEGUNDA SECCION --------------------*/
+.ss{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 40px;
+    align-items: start;
+    margin-bottom: 100px; /*---- RESPETAR ESTE MARGIN BOTTOM EN CASI TODAS LAS SECTIONS*/
+}
+.ss h2{
+    font-size: 40px;
+}
+.ss p{
+    font-size: 20px;
+}
+.textosSobreImagen{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 500px;
+}
+.img1{
+    margin-top: 60px;
+    margin-left: 30px;
+}
+.imagenSobreTxt{
+    display: flex;
+    flex-direction: column;
+    margin-top: 120px;
+    width: 700px;
+} 

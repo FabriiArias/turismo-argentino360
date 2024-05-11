@@ -18,6 +18,7 @@ header{
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;  
+    box-shadow: 1px 1px 30px; 
 }
 header ul{
     list-style: none;
@@ -33,7 +34,6 @@ header ul li a{
     padding: 10px;
 }
 header ul li a:hover{
-    background-color: #fefae0;
     color: white;
 }
 .selected{

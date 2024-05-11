@@ -19,6 +19,7 @@ header {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+    box-shadow: 1px 1px 30px; 
 }
 
 header ul {
