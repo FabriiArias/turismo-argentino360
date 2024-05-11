@@ -1,0 +1,30 @@
+solucionar imagen indice 
+titulo de la pagina sobre la imagen de indice
+ul pegado a la izquierda bajo a el titulo con ul style
+sin subrayado ul
+agregar padding a los enlaces para facilitar clickeo
+
+100 de margin total entre dos secciones 50/50 top/bottom
+
+
+section 2
+ver imagen 01
+el div que contiene el p con la imagen contenido en otro div este width90%
+el div externo se estira toda la longitud y le da color al fondo width100%
+ver el padding para que este contenido
+
+img 3 usar este para titulos de destino
+
+img 4
+invertir color de letras y fondo del titulo
+
+
+section 3
+img 2
+
+jugar con el border y background color
+debe diferenciarse de la primera section
+
+
+comentarios
+veremos
