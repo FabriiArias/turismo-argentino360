@@ -6,8 +6,7 @@
     color: #bc6c25; naranja fuerte
 */
 body {
-    padding-left: 10%;
-    padding-right: 10%;
+
     margin: 0 auto;
     background-color: #fefae0;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -54,24 +53,30 @@ header ul li a:hover {
 
 /*----------------------------------------------------index----------------------------------------------------------------------------*/
 .index {
-display: flex;
+    display: flex;
+    background-image: url(../imagenes/Norte/norte-1edit.png);
+    background-repeat: no-repeat;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
 
     div {
-        background-image: url(../imagenes/Norte/norte-1.jpg);
-        background-repeat: no-repeat;
-        display: flex;
-        justify-content: center;
+
 
         ul {
-            list-style: none;
+
             display: flex;
             flex-direction: column;
             justify-content: space-around;
-            gap: 15px;
+
             color: #fefae0;
+            gap: 30px;
 
             a {
                 color: #fefae0;
+                text-decoration: none;
+                padding: 10px;
             }
         }
     }
@@ -90,20 +95,57 @@ display: flex;
 /*-----------------------------------------primera section------------------------------------------------*/
 
 .ps {
-
+    margin-top: 50px;
+    margin-bottom: 50px;
     display: flex;
     flex-direction: column;
 }
 
 /*-----------------------------------------segunda section------------------------------------------------*/
 .ss {
-
+    margin-top: 50px;
+    margin-bottom: 50px;
     display: flex;
     flex-direction: column;
 }
 
+.titulosDestino {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    font-size: 70px;
+    color: black;
+    background-color: #fefae0;
+    width: 100%;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.502);
+
+}
+
+.titulosDestinonaranja {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    font-size: 70px;
+    color: rgb(255, 255, 255);
+    background-color: #bc6c25;
+    width: 100%;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.502);
+
+}
+
+
 .color {
     background-color: #bc6c25;
+    width: 100%;
+}
+
+.contenido {
+    width: 90%;
+    padding: 5%;
 
     p {
         display: flex;
@@ -122,35 +164,44 @@ display: flex;
 }
 
 .sincolor {
+    width: 100%;
 
 
-    p {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-
-        img {
-            width: 20%;
-            height: auto;
-
-        }
-
-
-    }
 
 }
 
 /*-----------------------------------------tercera section------------------------------------------------*/
 
 .ts {
-
+    margin-top: 50px;
+    margin-bottom: 50px;
     display: flex;
     flex-direction: column;
+    border: double;
+    border-color: #606c38;
+
+    p {
+        border: dashed;
+        border-color: #dda15e;
+        background-color: #bc6c25;
+        font-size: medium;
+        margin: 1%;
+    }
+
+    .naranjaclaro {
+        border: groove;
+        border-color: #bc6c25;
+        background-color: #dda15e;
+
+    }
 }
+
+
 
 /*-----------------------------------------tercera section------------------------------------------------*/
 .cs {
-
+    margin-top: 50px;
+    margin-bottom: 50px;
     display: flex;
     flex-direction: column;
 }
