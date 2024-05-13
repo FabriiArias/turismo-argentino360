@@ -97,6 +97,8 @@ header ul li a:hover {
 .ps {
     margin-top: 50px;
     margin-bottom: 50px;
+    width: 90%;
+    margin: auto;
     display: flex;
     flex-direction: column;
 }
@@ -175,35 +177,40 @@ header ul li a:hover {
 .ts {
     margin-top: 50px;
     margin-bottom: 50px;
-    width: 100%;
+    width: 90%;
     display: flex;
     flex-direction: column;
-    border: double;
-    border-color: #606c38;
-    margin:auto;
-    p {
-        width: 90%;
-        margin: 0 auto;
-        background-color: #bc6c25;
-        font-size: 20px;
-        margin-bottom: 0px;
-        margin-top: 0px;
-        padding-bottom: 50px;
-        text-align: center;
-        
-    }
+    flex-wrap: nowrap;
+    margin: auto;
 
-    .naranjaclaro {
-        width: 90%;
-        margin: 0 auto;
-        background-color: #dda15e;
-        margin-top: 0px;
-        margin-bottom: 0px;
-        font-size: 20px;
-    }
 }
 
+.lol {
+    display: flex;
+    flex-direction: row;
+    gap: 1%;
+}
 
+.consejos {
+    width: 100%;
+    background-color: #bc6c25;
+    color: #fefae0;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.502);
+    padding: 1%;
+}
+
+.naranjaclaro {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    width: 100%;
+    background-color: #dda15e;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.502);
+    padding: 1%;
+}
 
 /*-----------------------------------------cuarta section------------------------------------------------*/
 .cs {
