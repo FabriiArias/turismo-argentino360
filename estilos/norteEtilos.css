@@ -175,30 +175,36 @@ header ul li a:hover {
 .ts {
     margin-top: 50px;
     margin-bottom: 50px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     border: double;
     border-color: #606c38;
-
+    margin:auto;
     p {
-        border: dashed;
-        border-color: #dda15e;
+
         background-color: #bc6c25;
-        font-size: medium;
-        margin: 1%;
+        font-size: 20px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        padding-bottom: 50px;
+        text-align: center;
+        
     }
 
     .naranjaclaro {
-        border: groove;
-        border-color: #bc6c25;
+        width: 90%;
+        margin: 0 auto;
         background-color: #dda15e;
-
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-size: 20px;
     }
 }
 
 
 
-/*-----------------------------------------tercera section------------------------------------------------*/
+/*-----------------------------------------cuarta section------------------------------------------------*/
 .cs {
     margin-top: 50px;
     margin-bottom: 50px;
