@@ -217,6 +217,10 @@ header ul li a:hover{
     order: 0;
     gap: 10px;
     margin: 0;
+    a{
+        text-decoration: none;
+        color: #fefae0;
+    }
 }
 .img-redes{
     width: 32px;
