@@ -93,6 +93,9 @@ header ul li a:hover {
 }
 
 /*-----------------------------------------primera section------------------------------------------------*/
+h1{
+    font-size: 80px;
+}
 
 .ps {
     margin-top: 50px;
@@ -149,10 +152,13 @@ header ul li a:hover {
     width: 90%;
     padding: 5%;
 
+
     p {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
+        gap: 5%;
+        text-align: center;
 
         img {
             width: 20%;

@@ -5,47 +5,229 @@
     color: #dda15e; naranja claro
     color: #bc6c25; naranja fuerte
 */
-body{
+body {
     margin: 0 auto;
     background-color: #fefae0;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
 /* ---------------------------- HEADER ----------------------------------*/
-header{
+header {
     background-color: #dda15e;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    align-items: center; 
-    box-shadow: 1px 1px 30px;  
+    align-items: center;
+    box-shadow: 1px 1px 30px;
 }
-header ul{
+
+header ul {
     list-style: none;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     gap: 15px;
 }
-header ul li a{
+
+header ul li a {
     text-decoration: none;
     color: black;
     font-size: 20px;
     padding: 10px;
 }
-header ul li a:hover{
+
+header ul li a:hover {
     background-color: #dda15e;
     color: white;
 }
-.selected{
+
+.selected {
     background-color: #dda15e;
     color: white;
     font-size: 20px;
     padding: 10px;
 }
-.selected:hover{
+
+.selected:hover {
     background-color: #dda15e;
     color: white;
     font-size: 20px;
     padding: 10px;
+}
+
+/*----------------------------------------------------index----------------------------------------------------------------------------*/
+.index {
+    display: flex;
+    background-image: url(../imagenes/sur/sur-argentino-index.jpg);
+    background-repeat: no-repeat;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    div {
+
+
+        ul {
+
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+
+            color: #fefae0;
+            gap: 30px;
+
+            a {
+                color: #fefae0;
+                text-decoration: none;
+                padding: 10px;
+            }
+        }
+    }
+
+
+
+
+}
+
+.titulos {
+    display: flex;
+    justify-content: center;
+
+}
+
+/*-----------------------------------------primera section------------------------------------------------*/
+h1{
+    font-size: 80px;
+}
+
+.ps {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+/*-----------------------------------------segunda section------------------------------------------------*/
+.ss {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.titulosDestino {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    font-size: 70px;
+    color: black;
+    background-color: #fefae0;
+    width: 100%;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.502);
+
+}
+
+.titulosDestinonaranja {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    font-size: 70px;
+    color: rgb(255, 255, 255);
+    background-color: #283618;
+    width: 100%;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.502);
+
+}
+
+
+.color {
+    background-color: #283618;
+    width: 100%;
+    color: #fefae0;
+}
+
+.contenido {
+    width: 90%;
+    padding: 5%;
+
+
+    p {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 5%;
+        text-align: center;
+
+        img {
+            width: 20%;
+            height: auto;
+
+        }
+
+
+    }
+
+}
+
+.sincolor {
+    width: 100%;
+
+
+
+}
+
+/*-----------------------------------------tercera section------------------------------------------------*/
+
+.ts {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin: auto;
+
+}
+
+.lol {
+    display: flex;
+    flex-direction: row;
+    gap: 1%;
+}
+
+.consejos {
+    width: 100%;
+    background-color: #283618;
+    color: #fefae0;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.502);
+    padding: 1%;
+}
+
+.naranjaclaro {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    width: 100%;
+    background-color: #606c38;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.502);
+    padding: 1%;
+}
+
+/*-----------------------------------------cuarta section------------------------------------------------*/
+.cs {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
 }
