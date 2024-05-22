@@ -1,0 +1,113 @@
+/*
+    color: #606c38 ; verde claro
+    color: #283618; verde oscuro
+    color: #fefae0; crema
+    color: #dda15e; naranja claro
+    color: #bc6c25; naranja fuerte
+*/
+body{
+    margin: 0 auto;
+    background-color: #fefae0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/* ---------------------------- HEADER ----------------------------------*/
+header{
+    background-color: #dda15e;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 1px 1px 30px;  
+}
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+header ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 10px;
+}
+header ul li a:hover{
+    color: white;
+}
+.selected{
+    background-color: #dda15e;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+.selected:hover{
+    background-color: #dda15e;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+/* --------------------- PRIMERA SECTION ----------------------- */
+.ps{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cont-titulo{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    background-color: #bc6c25;
+    
+}
+.cont-titulo h1{
+    color: white;
+    font-size: 50px;
+}
+.cont-txts{
+    background-color: #dda15e;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+
+}
+.cont-txts p{
+    color: black;
+    font-size: 20px;
+    text-align: center;
+}
+/* ---------------------------- FORMULARIO ------------------------ */
+.ss{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+.seleccion{
+    font-size: 25px;
+    text-align: center;
+}
+.elementos{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.elementos label{
+    font-size: 25px;
+    
+}
+.elementos input{
+    width: 70%;
+}
+.check{
+    gap: 10px;
+}
+.enviar{
+    justify-content: center;
+}
