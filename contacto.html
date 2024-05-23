@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contactanos</title>
     <link rel="stylesheet" href="estilos/contactoEstilos.css">
+    <script src="script.js"></script>
 </head>
+
 <body>
     <header>
         <a href="#"><img src="imagenes/Header/logo 64x64.png" alt=""></a>
@@ -24,41 +27,42 @@
         </div>
         <div class="cont-txts">
             <p>Tienes una empresa y quieres crear anuncios en esta web?<br>
-            deja tu datos de contacto para organizar una publicidad</p>
+                deja tu datos de contacto para organizar una publicidad</p>
         </div>
     </section>
-    <!-- --------------------------- formulario -------------------------- --> 
+    <!-- --------------------------- formulario -------------------------- -->
     <section class="ss">
         <form action="">
             <div class="elementos">
                 <label>Nombre:</label>
-                <input type="text" name="">
+                <input type="text" name="" id="Nombre">
             </div>
             <div class="elementos">
                 <label>Correo:</label>
-                <input type="email" name="">
+                <input type="email" name="" id="Correo">
             </div>
             <div class="elementos">
                 <label>Celular:</label>
-                <input type="number" name="">
+                <input type="number" name="" id="Celular">
             </div>
-            
+
             <div class="seleccion">
                 <label for="">Seleccione clase: </label>
                 <div class="elementos check">
                     <label>Gastronomía:</label>
-                    <input type="checkbox" name="">
+                    <input type="checkbox" name="" id="Gastronomia">
                     <label>Hoteleria:</label>
-                    <input type="checkbox" name="">
+                    <input type="checkbox" name="" id="Hoteleria">
                     <label>Turismo:</label>
-                    <input type="checkbox" name="">
+                    <input type="checkbox" name="" id="Turismo">
                 </div>
             </div>
             <div class="elementos enviar">
-                <input type="submit" name="">
+                <input type="submit" name="" onclick="enviarDatos()">
             </div>
         </form>
 
-    </section>  
+    </section>
 </body>
+
 </html>
