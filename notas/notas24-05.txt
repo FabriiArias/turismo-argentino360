@@ -1,0 +1,12 @@
+Cambios que haria:
+ - Cambiar las imagenes de los index, buscar alguna que se adapten mas a los tamanios requeridos y de las pantallas
+ - Aumentar el tamanio de la letra de los textos de las introducciones a los lugares
+ - darle padding al index
+ - ver fuentes de google
+ - ver colores u otra fuente para el titulo sobre la foto del index
+ - subirle el size a los titulos de introduccion, destinos destacados y algunos consejos para viajeros
+ - agregar mas texto a los destinos destacados o subirle el size, ver tambien si agrangar la imagen o agregar mas
+
+
+ * por otro lado queda para estos dias cambiar la info de las tarjetas de consejos en la pag centro!
+ * y queda hacer la section de comentarios en las paginas! 

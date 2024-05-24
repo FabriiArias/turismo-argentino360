@@ -231,3 +231,84 @@ h1{
     display: flex;
     flex-direction: column;
 }
+
+/* ------------------------- FOOTER ------------------------------------- */
+.fondo-footer{
+    background-color: rgb(28, 28, 28);
+    padding: 50px;
+}
+.contenedor-general{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: #fefae0;
+    align-items: center;
+}
+.logo-footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    font-size: 25px;
+    order: 1;
+}
+.menu-footer{
+    display: flex;
+    flex-direction: row;
+    order: 2;
+}
+.menu-footer a{
+    text-decoration: none;
+    padding: 15px;
+    font-size: 20px;
+}
+.no-selected{
+    color: #fefae0;
+}
+.selected-footer{
+    color: #dda15e;
+    
+}
+.menu-footer a:hover{
+    color: #dda15e;
+}
+
+.redes-general h6{
+    font-size: 20px;
+    margin: 0;
+    padding-bottom: 30px;
+
+}
+.redes{
+    display: flex;
+    flex-direction: column;
+    order: 0;
+    gap: 10px;
+    margin: 0;
+    a{
+        text-decoration: none;
+        color: #fefae0;
+    }
+}
+.img-redes{
+    width: 32px;
+    height: 32px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.fc{
+    padding-left: 10PX;
+}
+.ig{
+    padding-left: 10px;
+}
+.footer-pt2{
+    background-color: black;
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+}

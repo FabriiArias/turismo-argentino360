@@ -48,3 +48,259 @@ header ul li a:hover{
     font-size: 20px;
     padding: 10px;
 }
+/*----------------------------------------------------index----------------------------------------------------------------------------*/
+.index {
+    display: flex;
+    background-image: url(../imagenes/Centro/centroia2Grande.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    div {
+
+
+        ul {
+
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+
+            color: #fefae0;
+            gap: 30px;
+
+            a {
+                color: #fefae0;
+                text-decoration: none;
+                padding: 10px;
+            }
+        }
+    }
+
+
+
+
+}
+
+.titulos {
+    display: flex;
+    justify-content: center;
+
+}
+
+/*-----------------------------------------primera section------------------------------------------------*/
+h1{
+    font-size: 80px;
+}
+
+.ps {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+/*-----------------------------------------segunda section------------------------------------------------*/
+.ss {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.titulosDestino {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    font-size: 70px;
+    color: black;
+    background-color: #fefae0;
+    width: 100%;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.502);
+
+}
+
+.titulosDestinonaranja {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    font-size: 70px;
+    color: rgb(255, 255, 255);
+    background-color: #283618;
+    width: 100%;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.502);
+
+}
+
+
+.color {
+    background-color: #283618;
+    width: 100%;
+    color: #fefae0;
+}
+
+.contenido {
+    width: 90%;
+    padding: 5%;
+
+
+    p {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 5%;
+        text-align: center;
+
+        img {
+            width: 20%;
+            height: auto;
+
+        }
+
+
+    }
+
+}
+
+.sincolor {
+    width: 100%;
+
+
+
+}
+
+/*-----------------------------------------tercera section------------------------------------------------*/
+
+.ts {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin: auto;
+
+}
+
+.lol {
+    display: flex;
+    flex-direction: row;
+    gap: 1%;
+}
+
+.consejos {
+    width: 100%;
+    background-color: #283618;
+    color: #fefae0;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.502);
+    padding: 1%;
+}
+
+.naranjaclaro {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    width: 100%;
+    background-color: #606c38;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.502);
+    padding: 1%;
+}
+
+/*-----------------------------------------cuarta section------------------------------------------------*/
+.cs {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+}
+/* ------------------------- FOOTER ------------------------------------- */
+.fondo-footer{
+    background-color: rgb(28, 28, 28);
+    padding: 50px;
+}
+.contenedor-general{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: #fefae0;
+    align-items: center;
+}
+.logo-footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    font-size: 25px;
+    order: 1;
+}
+.menu-footer{
+    display: flex;
+    flex-direction: row;
+    order: 2;
+}
+.menu-footer a{
+    text-decoration: none;
+    padding: 15px;
+    font-size: 20px;
+}
+.no-selected{
+    color: #fefae0;
+}
+.selected-footer{
+    color: #dda15e;
+    
+}
+.menu-footer a:hover{
+    color: #dda15e;
+}
+
+.redes-general h6{
+    font-size: 20px;
+    margin: 0;
+    padding-bottom: 30px;
+
+}
+.redes{
+    display: flex;
+    flex-direction: column;
+    order: 0;
+    gap: 10px;
+    margin: 0;
+    a{
+        text-decoration: none;
+        color: #fefae0;
+    }
+}
+.img-redes{
+    width: 32px;
+    height: 32px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.fc{
+    padding-left: 10PX;
+}
+.ig{
+    padding-left: 10px;
+}
+.footer-pt2{
+    background-color: black;
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+}
