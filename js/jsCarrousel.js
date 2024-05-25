@@ -1,6 +1,6 @@
-let imagenes = ["imagenes/carrousel/noria2.jpg",
-                "imagenes/carrousel/centroia2.jpg",
-                "imagenes/carrousel/suria2.jpg"                
+let imagenes = ["https://raw.githubusercontent.com/FabriiArias/turismo-argentino360/main/imagenes/Carrousel/centroia2.jpg",
+                "https://raw.githubusercontent.com/FabriiArias/turismo-argentino360/main/imagenes/Carrousel/noria2.jpg",
+                "https://raw.githubusercontent.com/FabriiArias/turismo-argentino360/main/imagenes/Carrousel/suria2.jpg"                
                 ];
 
 document.ImgCarru.src = imagenes[0];
