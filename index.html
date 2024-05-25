@@ -20,9 +20,24 @@
         </ul>
     </header>
     <!-- ------------------------------------CARROUSEL-------------------------- -->
-    <section class="carru">
-        <p>carrousel </p>
+    <h1 class="titulo-principal">Paisajes Argentinos</h1>
+    <section class="sec-carru">
+
+        <div class="flecha-izq" >
+            <img src="imagenes/Carrousel/flechaIzq.png" alt="" onclick="limpiarIntervaloDer()" >
+        </div>
+
+        <div class="img-carru">
+            <img name="ImgCarru"> <!-- con id no nos funciono -->
+        </div>
+
+        <div class="flecha-der">
+            <img src="imagenes/Carrousel/felchaDer.png" alt="" onclick="limpiarIntervaloIzq()">
+        </div>
+
     </section>
+    <script src="js/jsCarrousel.js"></script>
+
     <!-- ------------------------------------PRIMERA SECTION-------------------------- -->
     <div class="ps-fondo">
         <section class="ps"> <!-- ps = primera seccion -->
@@ -44,10 +59,10 @@
     </div>
     <!-- ------------------------------------SEGUNDA SECTION-------------------------- -->
 
-    
+    <h2 class="ss-subTitulo">Historia </h2>
     <section class="ss"> <!-- ss = segunda seccion -->
         <div class="textoSobreImagen">
-            <h2 class="ss-subTitulo">Historia </h2>
+            
             <p> Argentina tiene una historia rica y compleja que se remonta a miles de años atrás, cuando estaba
                 habitada por pueblos
                 indígenas como los guaraníes, los mapuches y los quichuas.
@@ -62,19 +77,13 @@
                 La lucha por la independencia comenzó a principios del siglo XIX, liderada por figuras como José de San
                 Martín y Manuel Belgrano.
                 Argentina finalmente declaró su independencia de España en 1816.
-                <br><br>
-                El siglo XIX estuvo marcado por conflictos internos y luchas políticas, incluidas las guerras civiles y
-                la lucha
-                por el control de las vastas extensiones de tierras. En 1853, se promulgó la Constitución Nacional,
-                estableciendo
-                un gobierno federal democrático.
-                <br>
                 
             </p>
-            <img src="imagenes/Home/cabildo.png" alt="" class="img1" width="500px" height="">
+            <img src="imagenes/Home/independencia.jpg" alt="" class="img1" width="100%" height="">
         </div>
+
         <div class="imagenSobreTxt">
-            <img src="imagenes/Home/historia-argentina.jpg" alt="" width="500px" height="300px">
+            <img src="imagenes/Home/democracia1983.jpg" alt="" width="100%x" height="">
             <p>La segunda mitad del siglo XX estuvo marcada por períodos de democracia interrumpida por golpes
                 militares,
                 como el ocurrido en 1976, que llevó a una dictadura brutal conocida como la "Guerra Sucia".
@@ -102,7 +111,7 @@
         <div class="ts-pt1">
 
             <div class="foto-perfil">
-                <img src="imagenes/Home/literally me.png" alt="" width="300px" height="250px">
+                <img src="imagenes/Home/valentin.jpg" alt="" width="300px" height="250px">
             </div>
             <div class="texto-perfil">
                 <h3>Valentin Stieger</h3>
@@ -114,7 +123,7 @@
         </div>
         <div class="ts-pt2">
             <div class="foto-perfil">
-                <img src="https://th.bing.com/th/id/OIP.OXvzNVQDzwc_tKfpWwJM7wHaF7?rs=1&pid=ImgDetMain" alt="" width="300px" height="250px">
+                <img src="imagenes/Home/fabri.jpg" alt="" width="300px" height="250px">
             </div>
             <div class="texto-perfil">
                 <h3>Fabrizio Arias</h3>
