@@ -51,14 +51,14 @@ header ul li a:hover{
 /*----------------------------------------------------index----------------------------------------------------------------------------*/
 .index {
     display: flex;
-    background-image: url(../imagenes/Centro/centroia2Grande.jpg);
+    background-image: url(../imagenes/Centro/centroia2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     flex-direction: column;
     width: 100%;
     margin-top: 50px;
     margin-bottom: 50px;
-
+    height: 700px;
     div {
 
 
@@ -66,15 +66,19 @@ header ul li a:hover{
 
             display: flex;
             flex-direction: column;
-            justify-content: space-around;
-
-            color: #fefae0;
-            gap: 30px;
+            align-items: center;
+            list-style: none;
+            color: #ffffff;
+            gap: 40px;
 
             a {
                 color: #fefae0;
-                text-decoration: none;
+                background-color: #00000078;
                 padding: 10px;
+                text-decoration: none;
+                border: 1px solid rgba(255, 255, 255, 0.345);
+                border-radius: 50px;
+                font-size: 20px;
             }
         }
     }
@@ -82,6 +86,9 @@ header ul li a:hover{
 
 
 
+}
+.index li:hover{
+    transform: scale(1.2);
 }
 
 .titulos {
@@ -93,6 +100,8 @@ header ul li a:hover{
 /*-----------------------------------------primera section------------------------------------------------*/
 h1{
     font-size: 80px;
+    color: #283618;
+    background-color: #fefae05f;
 }
 
 .ps {
@@ -103,6 +112,11 @@ h1{
     display: flex;
     flex-direction: column;
 }
+.subtitulos{
+    font-size: 45px;
+}
+
+
 
 /*-----------------------------------------segunda section------------------------------------------------*/
 .ss {
@@ -175,6 +189,14 @@ h1{
 
 
 
+}
+.parrafos-grl{
+    font-size: 20px;
+}
+.img-destino{
+    box-shadow: 10px 10px 10px;
+    color: black; 
+    border-radius: 10px;
 }
 
 /*-----------------------------------------tercera section------------------------------------------------*/
