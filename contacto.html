@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contactanos</title>
     <link rel="stylesheet" href="estilos/contactoEstilos.css">
-    <script src="script.js"></script>
+
 </head>
 
 <body>
@@ -32,40 +32,42 @@
     </section>
     <!-- --------------------------- formulario -------------------------- -->
     <section class="ss">
-        <form action="">
+        <form>
             <div class="elementos">
                 <label>Nombre:</label>
                 <input type="text" name="" id="Nombre">
             </div>
             <div class="elementos">
                 <label>Correo:</label>
-                <input type="email" name="" id="Correo">
+                <input type="text" name="" id="Correo">
             </div>
             <div class="elementos">
                 <label>Celular:</label>
                 <input type="number" name="" id="Celular">
             </div>
 
-            <div class="seleccion">
-                <label for="">Seleccione clase: </label>
-                <div class="elementos check">
-                    <label>Gastronomía:</label>
-                    <input type="checkbox" name="" id="Gastronomia">
-                    <label>Hoteleria:</label>
-                    <input type="checkbox" name="" id="Hoteleria">
-                    <label>Turismo:</label>
-                    <input type="checkbox" name="" id="Turismo">
-                </div>
-            </div>
+            
             <div class="elementos enviar">
-                <input type="submit" name="" onclick="enviarDatos()">
+                <button type="button" onclick="validar()">enviar</button>
+                <!-- se debe agregar html a la página mostrando los datos enviados (usando createElement). -->
+                <!-- En caso de haber errores, deben ser mostrados manipulando el HTML (no usar alertas nativas). -->
             </div>
         </form>
 
+        <ul id="errores">
+        </ul>
+
+        <div id="info">
+
+        </div>
+        
+
+        <script src="js/script.js"></script>
+
     </section>
 
-     <!-- ---------------------------------- footer ----------------------------------------------  -->
-     <div class="fondo-footer">
+    <!-- ---------------------------------- footer ----------------------------------------------  -->
+    <div class="fondo-footer">
         <footer>
             <div class="contenedor-general">
                 <div class="logo-footer">
@@ -99,7 +101,7 @@
                     </div>
                 </div>
                 <div class="menu-footer">
-                    
+
                     <a href="index.html" class="no-selected">Home</a>
                     <a href="norte.html" class="no-selected">Norte</a>
                     <a href="centro.html" class="no-selected">Centro</a>
