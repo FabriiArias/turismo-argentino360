@@ -240,11 +240,21 @@ h1{
 }
 
 /*-----------------------------------------cuarta section------------------------------------------------*/
-.cs {
+/*---------------------------CUARTA SEC COMENTARIOS -------------------------*/
+.cs{
+    width: 90%;
+    border: 1px solid black;
+    margin: 0 auto;
     margin-top: 50px;
     margin-bottom: 50px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.img-comentarios img{
+    border-radius: 50%;
 }
 /* ------------------------- FOOTER ------------------------------------- */
 .fondo-footer{
