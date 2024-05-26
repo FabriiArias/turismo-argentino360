@@ -24,7 +24,7 @@ function validar() {
 
   if (crr.length == 0) {
     err.push("por favor ingrese un correo")
-  } else if (exreg.test(crr.value)) {
+  } else if (!exreg.test(crr)) {
     err.push("el correo debe contener @ en el medio")
   }
 
