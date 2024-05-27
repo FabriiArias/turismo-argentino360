@@ -31,8 +31,13 @@
         </div>
     </section>
     <!-- --------------------------- formulario -------------------------- -->
+
     <section class="ss">
-        <form>
+
+        <div class="txt-logo-formu">
+            <h2>Turismo Argentino <br>360</h2>
+        </div>
+        <form class="formu">
             <div class="elementos">
                 <label>Nombre:</label>
                 <input type="text" name="" id="Nombre">
@@ -47,20 +52,23 @@
             </div>
 
             
-            <div class="elementos enviar">
-                <button type="button" onclick="validar()">enviar</button>
+            <div class="elementos">
+                <button type="button" onclick="validar()" class="enviar">Enviar</button>
                 <!-- se debe agregar html a la página mostrando los datos enviados (usando createElement). -->
                 <!-- En caso de haber errores, deben ser mostrados manipulando el HTML (no usar alertas nativas). -->
             </div>
+            <ul id="errores" class="ul-errores">
+            </ul>
+    
+            <div id="info" class="info">
         </form>
 
-        <ul id="errores">
-        </ul>
-
-        <div id="info">
+        
 
         </div>
-        
+        <div class="logo-formu">
+            <img src="imagenes/Header/logo 256x256.png" alt="">
+        </div>
 
         <script src="js/script.js"></script>
 

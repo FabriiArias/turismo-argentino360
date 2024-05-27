@@ -239,22 +239,51 @@ h1{
     padding: 1%;
 }
 
-/*-----------------------------------------cuarta section------------------------------------------------*/
 /*---------------------------CUARTA SEC COMENTARIOS -------------------------*/
 .cs{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+    padding-top: 25px;
+    margin-top: 25px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+.cs h5{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.cont-gnral-coments{
     width: 90%;
-    border: 1px solid black;
-    margin: 0 auto;
     margin-top: 50px;
     margin-bottom: 50px;
     display: flex;
     flex-direction: row;
-    gap: 50px;
-    justify-content: center;
-    align-items: center;
+    gap: 40px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    width: 60%;
+    border-bottom: 2px solid #283618;
+    padding-bottom: 15px;
 }
 .img-comentarios img{
     border-radius: 50%;
+}
+.img-comentarios{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.nom-com{
+    font-size: 20px;
+    margin-bottom: 0px;    
+}
+.com-com{ 
+    background-color: #d5d5d5;
+    padding: 10px;
+    border-radius: 10px;
+    
 }
 /* ------------------------- FOOTER ------------------------------------- */
 .fondo-footer{
