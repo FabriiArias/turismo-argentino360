@@ -9,7 +9,7 @@ function validar() {
 
   let err = [];
 
-  let exreg = /^[^@]*@[^@]*$/;
+  let exreg = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
   let nbr = nombre.value.trim();
 
@@ -25,7 +25,8 @@ function validar() {
   if (crr.length == 0) {
     err.push("por favor ingrese un correo")
   } else if (!exreg.test(crr)) {
-    err.push("el correo debe contener @ en el medio")
+    err.push("Ingrese un mail valido")
+    err.push("ej: usr@mail.com")
   }
 
   let nmr = celular.value;
@@ -36,7 +37,7 @@ function validar() {
     err.push("Celular muy largo");
   }
 
-  document.getElementById("errores").innerHTML="";
+  document.getElementById("errores").innerHTML = "";
 
   for (let index = 0; index < err.length; index++) {
 
@@ -45,14 +46,24 @@ function validar() {
     document.getElementById("errores").appendChild(li)
   }
 
+  document.getElementById("info").innerHTML ="";
   if (err.length == 0) {
-    let p = document.createElement("p");
 
-    p.innerHTML = `Hola ${nbr}, nos comunicaremos al ${nmr} ,o le enviaremos un mail al ${crr}`;
+    document.getElementById("info").innerHTML = `Hola ${nbr}, nos comunicaremos al ${nmr} ,o le enviaremos un mail al ${crr}`;
 
-    document.getElementById("info").appendChild(p);
+    
   }
 
 
+
+
+
+}
+
+
+
+function limpiar(p) {
+  console.log("asdasdasdasd")
+  p.innerHTML = "";
 
 }
