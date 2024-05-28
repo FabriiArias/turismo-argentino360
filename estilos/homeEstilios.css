@@ -18,7 +18,7 @@ header{
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    box-shadow: 1px 1px 30px;  
+    box-shadow: 1px 1px 10px;  
 }
 header ul{
     list-style: none;
@@ -55,11 +55,12 @@ header ul li a:hover{
 }
 .sec-carru{
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 100px;
     width: 100%;
     display: flex;
     justify-content: center;
     gap: 10px;
+    
 }
 
 .flecha-izq, .flecha-der{
@@ -161,7 +162,6 @@ header ul li a:hover{
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
 }
 .ts h2{
     text-align: center;
@@ -173,9 +173,11 @@ header ul li a:hover{
 }
 .texto-perfil h3{
     font-size: 35px;
+    width: 100%;
 }
 .texto-perfil p{
     font-size: 20px;
+    width: 100%;
 }
 .foto-perfil img{
     border-radius: 50%;
@@ -184,10 +186,11 @@ header ul li a:hover{
     background-color: #606c38;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     gap: 100px;
     padding: 50px;
+    padding-left: 10%;
     text-align: center;
     color: #fefae0;
     
@@ -196,10 +199,11 @@ header ul li a:hover{
     background-color: #283618;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: right;
     align-items: center;
     gap: 100px;
     padding: 50px;
+    padding-right: 10%;
     text-align: center;
     color: #fefae0;
 }

@@ -5,67 +5,61 @@
     color: #dda15e; naranja claro
     color: #bc6c25; naranja fuerte
 */
-body {
+body{
     margin: 0 auto;
     background-color: #fefae0;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-
 /* ---------------------------- HEADER ----------------------------------*/
-header {
+header{
     background-color: #dda15e;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    align-items: center;
-    box-shadow: 1px 1px 30px;
+    align-items: center;  
+    box-shadow: 1px 1px 30px; 
 }
-
-header ul {
+header ul{
     list-style: none;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     gap: 15px;
 }
-
-header ul li a {
+header ul li a{
     text-decoration: none;
     color: black;
     font-size: 20px;
     padding: 10px;
 }
-
-header ul li a:hover {
-    background-color: #dda15e;
+header ul li a:hover{
     color: white;
 }
-
-.selected {
+.selected{
     background-color: #dda15e;
     color: white;
     font-size: 20px;
     padding: 10px;
 }
-
-.selected:hover {
+.selected:hover{
     background-color: #dda15e;
     color: white;
     font-size: 20px;
     padding: 10px;
 }
-
 /*----------------------------------------------------index----------------------------------------------------------------------------*/
 .index {
     display: flex;
-    background-image: url(../imagenes/sur/sur-argentino-index.jpg);
+    background-image: url(../imagenes/Sur/suria2.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
     flex-direction: column;
     width: 100%;
-    margin-top: 50px;
+    margin-top: 0px;
     margin-bottom: 50px;
-
+    height: 700px;
+    box-shadow: 1px 1px 10px;
     div {
 
 
@@ -73,15 +67,19 @@ header ul li a:hover {
 
             display: flex;
             flex-direction: column;
-            justify-content: space-around;
-
-            color: #fefae0;
-            gap: 30px;
+            align-items: center;
+            list-style: none;
+            color: #ffffff;
+            gap: 40px;
 
             a {
                 color: #fefae0;
-                text-decoration: none;
+                background-color: #00000078;
                 padding: 10px;
+                text-decoration: none;
+                border: 1px solid rgba(255, 255, 255, 0.345);
+                border-radius: 50px;
+                font-size: 20px;
             }
         }
     }
@@ -89,6 +87,9 @@ header ul li a:hover {
 
 
 
+}
+.index li:hover{
+    transform: scale(1.2);
 }
 
 .titulos {
@@ -100,6 +101,8 @@ header ul li a:hover {
 /*-----------------------------------------primera section------------------------------------------------*/
 h1{
     font-size: 80px;
+    color: white;
+    background-color: #0000005f;
 }
 
 .ps {
@@ -110,6 +113,11 @@ h1{
     display: flex;
     flex-direction: column;
 }
+.subtitulos{
+    font-size: 45px;
+}
+
+
 
 /*-----------------------------------------segunda section------------------------------------------------*/
 .ss {
@@ -183,6 +191,14 @@ h1{
 
 
 }
+.parrafos-grl{
+    font-size: 20px;
+}
+.img-destino{
+    box-shadow: 10px 10px 10px;
+    color: black; 
+    border-radius: 10px;
+}
 
 /*-----------------------------------------tercera section------------------------------------------------*/
 
@@ -224,14 +240,52 @@ h1{
     padding: 1%;
 }
 
-/*-----------------------------------------cuarta section------------------------------------------------*/
-.cs {
+/*---------------------------CUARTA SEC COMENTARIOS -------------------------*/
+.cs{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+    padding-top: 25px;
+    margin-top: 25px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+.cs h5{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.cont-gnral-coments{
+    width: 90%;
     margin-top: 50px;
     margin-bottom: 50px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    gap: 40px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    width: 60%;
+    border-bottom: 2px solid #283618;
+    padding-bottom: 15px;
 }
-
+.img-comentarios img{
+    border-radius: 50%;
+}
+.img-comentarios{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.nom-com{
+    font-size: 20px;
+    margin-bottom: 0px;    
+}
+.com-com{ 
+    background-color: #d5d5d5;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
 /* ------------------------- FOOTER ------------------------------------- */
 .fondo-footer{
     background-color: rgb(28, 28, 28);

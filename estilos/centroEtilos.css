@@ -56,9 +56,10 @@ header ul li a:hover{
     background-size: cover;
     flex-direction: column;
     width: 100%;
-    margin-top: 50px;
+    margin-top: 0px;
     margin-bottom: 50px;
     height: 700px;
+    box-shadow: 1px 1px 10px;
     div {
 
 
@@ -100,8 +101,8 @@ header ul li a:hover{
 /*-----------------------------------------primera section------------------------------------------------*/
 h1{
     font-size: 80px;
-    color: #283618;
-    background-color: #fefae05f;
+    color: white;
+    background-color: #0000005f;
 }
 
 .ps {
