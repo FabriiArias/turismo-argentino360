@@ -59,16 +59,19 @@ header ul li a:hover{
     width: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 10px;
     
 }
 
 .flecha-izq, .flecha-der{
     width: 5%;  
+    height: 79px;
     display: flex;
     justify-content: center;
-    align-items: center;
-    
+}
+.flecha-izq:hover, .flecha-der:hover {
+    transform: scale(1.1);
 }
 .flecha-izq img, .flecha-der img{
     width: 79px;
@@ -81,10 +84,13 @@ header ul li a:hover{
     align-items: center;
     width: 60%;
     height: 600px;
+    
 }
 .img-carru img{
     width: 100%;
     height: 600px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px;
 }
 /*------------------------- PRIMERA SECTION ----------------------------*/
 .ps-fondo{
